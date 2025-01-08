@@ -82,6 +82,6 @@ Now, visit `http://localhost:3000` to view the website.
 
 ## Contributing
 
-We welcome contributions to WakaShop! If you'd like to help improve the platform, feel free to fork the repository and submit a pull request
+We welcome contributions to MernShop! If you'd like to help improve the platform, feel free to fork the repository and submit a pull request
 
 ---
