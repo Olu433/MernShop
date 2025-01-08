@@ -1,0 +1,83 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.0
+3 timing npm:load:whichnode Completed in 44ms
+4 timing config:load:defaults Completed in 118ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 12ms
+6 timing config:load:builtin Completed in 13ms
+7 timing config:load:cli Completed in 5ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:C:\Users\Toshiba\WakaShop\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 5ms
+11 timing config:load:file:C:\Users\Toshiba\.npmrc Completed in 2ms
+12 timing config:load:user Completed in 2ms
+13 timing config:load:file:C:\Users\Toshiba\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 2ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 150ms
+17 timing npm:load:configload Completed in 150ms
+18 timing config:load:flatten Completed in 7ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm create vite@latest
+22 verbose argv "create" "vite@latest"
+23 timing npm:load:setTitle Completed in 3ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\Toshiba\WakaShop\UsersToshibaAppDataLocalnpm-cache\_logs\2025-01-07T16_51_03_047Z-
+26 verbose logfile C:\Users\Toshiba\WakaShop\UsersToshibaAppDataLocalnpm-cache\_logs\2025-01-07T16_51_03_047Z-debug-0.log
+27 timing npm:load:logFile Completed in 81ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 405ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 2ms
+33 http fetch GET 200 https://registry.npmjs.org/create-vite 1122ms (cache miss)
+34 timing arborist:ctor Completed in 1ms
+35 http fetch GET 200 https://registry.npmjs.org/npm 1528ms (cache miss)
+36 timing arborist:ctor Completed in 0ms
+37 timing idealTree:init Completed in 13ms
+38 timing idealTree:userRequests Completed in 2ms
+39 silly idealTree buildDeps
+40 silly fetch manifest create-vite@6.1.1
+41 http fetch GET 200 https://registry.npmjs.org/create-vite 22ms (cache hit)
+42 silly placeDep ROOT create-vite@6.1.1 OK for:  want: 6.1.1
+43 timing idealTree:#root Completed in 32ms
+44 timing idealTree:node_modules/create-vite Completed in 0ms
+45 timing idealTree:buildDeps Completed in 33ms
+46 timing idealTree:fixDepFlags Completed in 1ms
+47 timing idealTree Completed in 52ms
+48 timing reify:loadTrees Completed in 54ms
+49 timing reify:diffTrees Completed in 1ms
+50 silly reify moves {}
+51 timing reify:retireShallow Completed in 3ms
+52 timing reify:createSparse Completed in 11ms
+53 timing reify:loadBundles Completed in 0ms
+54 silly audit bulk request { 'create-vite': [ '6.1.1' ] }
+55 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.1.1.tgz. Extracting by manifest.
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 451ms
+57 timing auditReport:getReport Completed in 455ms
+58 silly audit report {}
+59 timing auditReport:init Completed in 0ms
+60 timing reify:audit Completed in 457ms
+61 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.1.1.tgz 2499ms (cache miss)
+62 timing reifyNode:node_modules/create-vite Completed in 2517ms
+63 timing reify:unpack Completed in 2518ms
+64 timing reify:unretire Completed in 1ms
+65 timing build:queue Completed in 1ms
+66 timing build:link:node_modules/create-vite Completed in 59ms
+67 timing build:link Completed in 59ms
+68 timing build:deps Completed in 61ms
+69 timing build Completed in 62ms
+70 timing reify:build Completed in 62ms
+71 timing reify:trash Completed in 0ms
+72 timing reify:save Completed in 21ms
+73 timing reify Completed in 2692ms
+74 timing command:create Completed in 91605ms
+75 notice
+75 notice New [31mmajor[39m version of npm available! [31m10.2.4[39m -> [32m11.0.0[39m
+75 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v11.0.0[39m
+75 notice Run [32mnpm install -g npm@11.0.0[39m to update!
+75 notice
+76 verbose exit 0
+77 timing npm Completed in 94650ms
+78 info ok
