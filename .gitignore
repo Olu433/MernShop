@@ -1,4 +1,11 @@
-node_modules
-.env
-UsersToshibaAppDataLocalnpm-cache
+# Node modules folder
+node_modules/
 
+# npm cache folder
+UsersToshibaAppDataLocalnpm-cache/
+
+# .env files
+.env
+
+# Logs
+*.log
