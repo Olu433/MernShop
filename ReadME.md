@@ -1,6 +1,6 @@
-# WakaShop
+# MernShop
 
-WakaShop is an innovative eCommerce platform designed to provide users with a seamless online shopping experience. From browsing through a variety of products to easy checkout and payment options, WakaShop is dedicated to delivering quality service and user satisfaction.
+MernShop is an innovative eCommerce platform designed to provide users with a seamless online shopping experience. From browsing through a variety of products to easy checkout and payment options, WakaShop is dedicated to delivering quality service and user satisfaction.
 
 ## Features
 
@@ -32,7 +32,7 @@ To get started with WakaShop, follow the instructions below:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Olu433/WakaShop.git
+git clone https://github.com/Olu433/MernShop.git
 cd wakashop
 ```
 
@@ -78,14 +78,10 @@ cd frontend
 npm start
 ```
 
-Now, visit `http://localhost:3000` to view the WakaShop website.
+Now, visit `http://localhost:3000` to view the website.
 
 ## Contributing
 
-We welcome contributions to WakaShop! If you'd like to help improve the platform, feel free to fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
+We welcome contributions to WakaShop! If you'd like to help improve the platform, feel free to fork the repository and submit a pull request
 
 ---
